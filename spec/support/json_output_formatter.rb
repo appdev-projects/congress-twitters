@@ -1,5 +1,5 @@
 RSpec::Support.require_rspec_core "formatters/json_formatter"
-
+require "oj"
 class JsonOutputFormatter < RSpec::Core::Formatters::JsonFormatter
   RSpec::Core::Formatters.register self, :dump_summary
 

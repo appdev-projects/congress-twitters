@@ -1,4 +1,3 @@
-require "rails_helper"
 
 describe "This project" do
   it "is not graded" do
